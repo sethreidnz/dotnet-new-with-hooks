@@ -6,11 +6,13 @@ I created this repo to learn how to use React hooks by using the [`dotnet new  r
 
 The main things that I did after creating the project are:
 
-- Update the file `ClientApp/package.json` to be the same as the latest version created by Create React App (currently using `react-scripts` = `2.1.3`). This includes updating everything and removing any unneeded scripts and dependencies. I also added  the eslint hooks plugin to the package.json eslint config.
-- Moved the page components from `ClientApp/components` into a folder `ClientApp/pages/`
+- Update the file `ClientApp/package.json`to be the same as the latest version created by Create React App (currently using `react-scripts` = `2.1.3`). This includes updating everything and removing any unneeded scripts and dependencies. I also added the eslint hooks plugin to the package.json eslint config.
+- Moved the page components from `ClientApp/components`  into a folder `ClientApp/pages/`
 - Re-wrote the component `ClientApp/pages/Counter` in a new hooks based component `ClientApp/pages/CounterHooks`
 - Re-wrote the component `ClientApp/pages/FetchData` in a new hooks based component `ClientApp/pages/FetchDataHooks`
 - Updated the navigation to link to these for comparison
+
+To find out more about hooks start with the official react documentation: **[Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)**
 
 ## Pre-requisites
 
@@ -43,3 +45,4 @@ For more information see
 
 - [Dotnet CLI documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x)
 - [Create React App documentation](https://facebook.github.io/create-react-app/)
+- [Hooks at a glance](https://reactjs.org/docs/hooks-overview.html)
